@@ -1,6 +1,10 @@
 # README
 pyCub is iCub humanoid robot simulator written in Python. It uses PyBullet for simulation and Open3D for visualization.
 
+## Simple Virtual Environment with Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/asimovichxd/pyCub)
+
 ## Known bugs
 - visualization with skin dies after ~65k steps
   - e.g., [https://github.com/isl-org/Open3D/issues/4992](https://github.com/isl-org/Open3D/issues/4992) 
