@@ -11,7 +11,7 @@ except:
     import sys
     import os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-    from pycub import pyCub
+    from icub_pybullet.pycub import pyCub
 
 
 def push_the_ball(client):
